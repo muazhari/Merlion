@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2022 salesforce.com, inc.
+# Copyright (c) 2023 salesforce.com, inc.
 # All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
@@ -71,6 +71,7 @@ setup(
         "packaging",
         "pandas>=1.1.0",  # >=1.1.0 for origin kwarg to df.resample()
         "prophet>=1.1",  # 1.1 removes dependency on pystan
+        "neuralprophet",
         "scikit-learn>=0.22",  # >=0.22 for changes to isolation forest algorithm
         "scipy>=1.6.0",  # 1.6.0 adds multivariate_t density to scipy.stats
         "statsmodels>=0.12.2",
