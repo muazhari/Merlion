@@ -10,7 +10,7 @@ Adaptation of NeuralProphet forecasting model to anomaly detection.
 
 from merlion.models.anomaly.forecast_based.base import ForecastingDetectorBase
 from merlion.models.anomaly.base import DetectorConfig
-from merlion.models.forecast.NeuralProphet import NeuralProphetConfig, NeuralProphet
+from merlion.models.forecast.neuralprophet import NeuralProphetConfig, NeuralProphet
 from merlion.post_process.threshold import AggregateAlarms
 
 
