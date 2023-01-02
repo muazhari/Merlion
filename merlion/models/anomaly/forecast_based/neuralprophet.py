@@ -5,7 +5,7 @@
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
 """
-Adaptation of NeuralNeuralProphet forecasting model to anomaly detection.
+Adaptation of NeuralProphet forecasting model to anomaly detection.
 """
 
 from merlion.models.anomaly.forecast_based.base import ForecastingDetectorBase
