@@ -61,7 +61,23 @@
     }
   },
 
+  "NeuralProphet": {
+    "config": {
+      "default": {
+        "uncertainty_samples": 0
+      }
+    }
+  },
+
   "AutoProphet": {
+    "config": {
+      "default": {
+        "uncertainty_samples": 0
+      }
+    }
+  },
+
+  "AutoNeuralProphet": {
     "config": {
       "default": {
         "uncertainty_samples": 0

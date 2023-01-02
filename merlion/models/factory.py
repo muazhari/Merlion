@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2022 salesforce.com, inc.
+# Copyright (c) 2023 salesforce.com, inc.
 # All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause
 # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
@@ -50,6 +50,7 @@ import_alias = dict(
     LSTM="merlion.models.forecast.lstm:LSTM",
     MSES="merlion.models.forecast.smoother:MSES",
     Prophet="merlion.models.forecast.prophet:Prophet",
+    NeuralProphet="merlion.models.forecast.neuralprophet:NeuralProphet",
     Sarima="merlion.models.forecast.sarima:Sarima",
     StatThreshold="merlion.models.anomaly.stat_threshold:StatThreshold",
     VectorAR="merlion.models.forecast.vector_ar:VectorAR",
@@ -63,6 +64,7 @@ import_alias = dict(
     SeasonalityLayer="merlion.models.automl.seasonality:SeasonalityLayer",
     AutoETS="merlion.models.automl.autoets:AutoETS",
     AutoProphet="merlion.models.automl.autoprophet:AutoProphet",
+    AutoNeuralProphet="merlion.models.automl.autoneuralprophet:AutoNeuralProphet",
     AutoSarima="merlion.models.automl.autosarima:AutoSarima",
 )
 
